@@ -1,6 +1,20 @@
+import Page from "./Page";
+import {
+    FavouriteProvider,
+    LocationProvider,
+    WeatherProvider,
+} from "./provider";
 
-export default function App(){
+function App() {
     return (
-        <div className="text-blue-800">Hello</div>
+        <LocationProvider>
+            <WeatherProvider>
+                <FavouriteProvider>
+                    <Page />
+                </FavouriteProvider>
+            </WeatherProvider>
+        </LocationProvider>
     );
 }
+
+export default App;

@@ -1,3 +1,3 @@
-https://github.com/Learn-with-Sumit/assignment-1-smartgrade-showcase-Lawrence-Amlan-Gomes
-
 https://lws-react-js-assignment-1.vercel.app/
+
+8325a5f47aaefd05c0b644494edaec34
